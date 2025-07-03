@@ -13,13 +13,6 @@ const AIHeroSection = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.2 },
-    },
-  };
 
   const textVariants = {
     hidden: { opacity: 0, y: 20 },

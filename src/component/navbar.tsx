@@ -1,5 +1,5 @@
 
-import React from 'react';
+
 import  { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX, FiZap } from 'react-icons/fi'; // Menu, Close, and Zap (for AI logo) icons
