@@ -9,7 +9,7 @@ import TacticalContentGenerator from '../component/content';
 import AIHeroSection from '../component/heroSection';
 
 
-import AIFlowchart from '../component/gloctar';
+//import AIFlowchart from '../component/gloctar';
 
 export default function LandingPage() {
  
@@ -25,8 +25,8 @@ export default function LandingPage() {
       <SpeechInput onTranscriptUpdate={() => {}} />
       <TextEditor />
       <TacticalContentGenerator />
-      
-     / <AIFlowchart />
+
+    {/* <AIFlowchart /> */}
     </div>
   );
 }

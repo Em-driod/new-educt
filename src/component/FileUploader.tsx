@@ -188,7 +188,7 @@ const AnimatedSection = ({
 };
 
 // --- Main FileUploader Component ---
-export default function FileUploader({ setInputText }: FileUploaderProps) {
+export default function FileUploader({ }: FileUploaderProps) {
   const [loadingInsights, setLoadingInsights] = useState(false);
   const [loadingAnalysis, setLoadingAnalysis] = useState(false);
   const [fileName, setFileName] = useState('');

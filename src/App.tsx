@@ -19,7 +19,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/file-uploader" element={<FileUploader setInputText={setInputText} />} />
-        <Route path="/content-generator" element={<TacticalContentGenerator inputText={inputText} />} />
+        <Route path="/content-generator" element={<TacticalContentGenerator/>} />
 
         {/* Add more routes as needed */}
       </Routes>
